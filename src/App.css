@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #1c74e7;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  /*portfolio*/
+  .flex-project-container>div{
+    background-color: #f1f1f1;
+    width: 150px;
+    height: 150px;;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-style: hidden;
+    border-radius: 30px;
+}
+#home > Button:hover{
+  transform: scale(1.1);
+}
+
+#portfolio, #resume{
+  background-color: #fafafa;
+}
+.bars li{
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 20px;
+  vertical-align: middle;
+  border: 1em;
+}
+.skills > li:hover{
+transform: scale(1.1);
+}
+.aboutSection{
+background-image: url('component/image/unsplash.jpg');
+/* background: -webkit-linear-gradient(45deg,rgba(234,21,129,.6),rgba(10,23,187,.6) 100%);   */
+background-repeat: no-repeat;   
+background-position: center;
+background-size: cover;
+font-family: monospace;
+height: 50em;
+background-attachment: fixed;
+}
+.aboutParagraph{
+  top: 5rem;
+}
+
+.paragraph{
+  font-size: 16px;
+  /* color: aliceblue !important; */
+}
+#root .education_class{
+  margin: 5px;
+}
+
+.sliderimg{
+  height:500px;
+  width:100%;
+}
+.mapstyle{
+  width: 100%;
+  height: 100%;
+}
+#contact{
+  background-image: url('./component/image/contact.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.work-card{
+  margin: 10px !important;
+  
+}
