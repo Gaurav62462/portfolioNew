@@ -15,15 +15,15 @@ app.use(cors());
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Methods", "GET,PUT,DELETE,POST");
 	res.header(
-	  "Access-Control-Allow-Headers",
-	  "Origin, X-Requested-With, Content-Type, Accept"
+		"Access-Control-Allow-Headers",
+		"Origin, X-Requested-With, Content-Type, Accept"
 	);
 	next();
-  });
+});
 
 
 app.post("/add", (req, res) => {
@@ -81,16 +81,16 @@ app.post("/contact", (req, res) => {
 		pool: true,
 		host: "smtp.gmail.com",
 		service: "Gmail",
-        port: 2525,
+		port: 2525,
 		secure: false,
 		authMethod: 'PLAIN',
 		auth: {
-			user: 'gaurav.zestgeek@gmail.com',
-			pass: 'welcome@123'
+			user: '',
+			pass: ''
 		},
 		tls: {
 			rejectUnauthorized: false
-		  }
+		}
 	})
 
 

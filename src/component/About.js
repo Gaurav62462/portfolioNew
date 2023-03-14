@@ -6,7 +6,6 @@ const About = (props) => {
 	let resumeData = props.resumeData;
 	const { Title, Paragraph } = Typography;
 
-
 	return (
 		<section id="about" className="aboutSection">
 			<Row>
@@ -20,7 +19,6 @@ const About = (props) => {
 				</Col>
 			</Row>
 		</section>
-
 	)
 }
 

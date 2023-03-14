@@ -14,7 +14,7 @@ const Resume = (props) => {
                 <Col span={12}>
                     <h3><FontAwesomeIcon icon={faGraduationCap} color='#252526' />  Education</h3>
                     {
-                        resumeData.education && resumeData.education.map((item, index) => {
+                        resumeData?.education?.map((item, index) => {
                             return (
                                 <Card key={index} hoverable className="education_class">
                                     <Meta title={item.specialization} />
@@ -28,7 +28,7 @@ const Resume = (props) => {
                 <Col span={12}>
                     <h3><FontAwesomeIcon icon={faBriefcase} color='#252526' />  Experience</h3>
                     {
-                        resumeData.work && resumeData.work.map((item, index) => {
+                        resumeData?.work?.map((item, index) => {
                             return (
                                 <Card key={index} hoverable className="education_class">
                                     <Meta title={item.CompanyName} />
@@ -49,7 +49,7 @@ const Resume = (props) => {
                         }
                     </h3>
                     {
-                        resumeData.progress.map((progres, index) => {
+                        resumeData.progress?.map((progres, index) => {
                             return (
                                 <>
                                     <label key={index}>{progres.label}</label>

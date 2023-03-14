@@ -2,20 +2,21 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Button, Form, Input, Col, Row } from 'antd';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
-import MapStyle from './MapStyle';
+// import MapStyle from './MapStyle';
 
 const Contactme = (props) => {
+    const { google, resumeData } = props || {}
     const [showingInfoWindow, setshowingInfoWindow] = React.useState(false);
     const { TextArea } = Input;
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
     const [email, setEmail] = useState('');
 
-    const _mapLoaded = (mapProps, map) => {
-        map.setOptions({
-            styles: MapStyle
-        });
-    }
+    // const _mapLoaded = (mapProps, map) => {
+    //     map.setOptions({
+    //         styles: MapStyle
+    //     });
+    // }
 
     const onSubmit = (event) => {
         event.preventDefault();
@@ -45,7 +46,7 @@ const Contactme = (props) => {
             <Row>
                 <Col span={12}>
                     <h1>Get In Touch</h1>
-                    <Form action="/contact" id="contact-form" method="post" role="form" id='contact'>
+                    <Form action="/contact" method="post" role="form" id='contact'>
                         <Input size='large' type='text' name='name' value={name} placeholder='Enter Your Name' onChange={e => setName(e.target.value)} />
                         <br />
                         <br />
@@ -60,22 +61,22 @@ const Contactme = (props) => {
                 </Col>
                 <Col span={12}>
                     <Map
-                        google={props.google}
+                        google={google}
                         onClick={() => setshowingInfoWindow(false)}
                         zoom={15}
                         //onReady={(mapProps, map) => _mapLoaded(mapProps, map)}
                         className="mapstyle"
-                        initialCenter={{ lat: 30.710920, lng: 76.693320 }}>
+                        initialCenter={{ lat: 30.713296, lng: 76.7075761 }}>
                         <Marker
                             onClick={() => onMarkerClick()}
-                            position={{ lat: 30.710920, lng: 76.693320 }}
+                            position={{ lat: 30.713296, lng: 76.7075761 }}
                         />
                         <InfoWindow
                             visible={showingInfoWindow}
-                            position={{ lat: 30.710920, lng: 76.693320 }}
+                            position={{ lat: 30.713296, lng: 76.7075761 }}
                         >
-                            <h5>{props.resumeData.infoWindow}</h5>
-                            <p>{props.resumeData.infoWindow1}</p>
+                            <h5>{resumeData.infoWindow}</h5>
+                            <p>{resumeData.infoWindow1}</p>
                         </InfoWindow>
                     </Map>
                 </Col>

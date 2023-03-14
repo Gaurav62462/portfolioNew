@@ -6,16 +6,16 @@ const Portfolio = (props) => {
     let resumeData = props.resumeData;
     return (
         <section id='portfolio'>
-            <h2>Check out of some works done by me.</h2>
+            <h2>Projects</h2>
             <Row>
                 {
-                    resumeData.portfolio && resumeData.portfolio.map((item, index) => {
+                    resumeData?.portfolio.map((item, index) => {
                         return (
                             <Col key={index} span={6}>
-                                <Card  hoverable={true}
+                                <Card hoverable={true}
                                     className="work-card"
                                     title={item.name}
-                                    cover={<img src={item.imgurl} />}
+                                    cover={<img src={item.imgurl} alt='' />}
                                 >
                                     <a href={item.url}></a>
                                 </Card>

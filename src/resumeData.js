@@ -5,8 +5,8 @@ let resumeData = {
     'role': 'Full Satck Developer',
     'linkedinId': 'Your ID',
     'skypeid': 'gaurav@ajivainfotech.com',
-    'infoWindow': 'ZestGeek Solutions',
-    'infoWindow1': 'E-261, Phase, 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar, Punjab',
+    'infoWindow': 'SunFocus Solutions',
+    'infoWindow1': '1st floor, Plot No: C-127, Phase-8, Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 160072',
     'roleDescription': 'I like to learn and create applications in various parts of software development and like to learn about new technologies, write technical articles or simply play games in my free time.',
     'socialLinks': [
         {
@@ -25,7 +25,8 @@ let resumeData = {
             'className': 'fa fa-twitter'
         }
     ],
-    'aboutme': ' I am currently working as a Front-End Developer at ZestGeek Solutions. I am a self taught Web Developer, currently diving deeper into Development. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.',
+    'aboutme': ' I am currently working as a Front-End Developer at SunFocus Solutions. I am a self taught Web Developer, currently diving deeper into Development. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.',
+    // eslint-disable-next-line no-useless-concat
     'address': 'Ward no.3, Khaira Road, Sardulgarh, ' + 'Dist: Mansa(151507).',
     'website': 'https://Gaurav62462.github.io',
     'education': [
@@ -52,7 +53,13 @@ let resumeData = {
         {
             'CompanyName': 'ZestGeek Solutions',
             'specialization': 'Jh. Front-end Developer',
-            'JoiningDate': 'September 2020 - Continue',
+            'JoiningDate': '23-Sep 2020 - 20-Jan 2023',
+            'Achievements': 'Some Achievements'
+        },
+        {
+            'CompanyName': 'Sunfocus Solutions',
+            'specialization': 'Front-end Developer',
+            'JoiningDate': '9-Feb 2023 - COntinue ',
             'Achievements': 'Some Achievements'
         }
     ],
@@ -80,6 +87,7 @@ let resumeData = {
             'skillimg': require('./component/image/react.jpg'),
         }
     ],
+    // eslint-disable-next-line no-sparse-arrays
     'portfolio': [
         {
             'name': 'AirFlowPeatSeatCover',
@@ -120,7 +128,7 @@ let resumeData = {
     'progress': [
         {
             'label': 'React Js',
-            'percent': 40
+            'percent': 60
         },
         {
             'label': 'HTML/CSS',
@@ -128,20 +136,16 @@ let resumeData = {
         },
         {
             'label': 'Wordpress',
-            'percent': 30
+            'percent': 20
         },
         {
             'label': 'PHP',
-            'percent': 40
+            'percent': 20
         },
         {
             'label': 'Java Script',
             'percent': 40
         },
-        {
-            'label': 'API',
-            'percent': 50
-        }
     ]
 }
 export default resumeData;
