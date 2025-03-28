@@ -44,12 +44,7 @@ let resumeData = {
         }
     ],
     'work': [
-        {
-            'CompanyName': 'Ajiva Infotech Pvt Ltd',
-            'specialization': 'Jh. PHP Developer',
-            'JoiningDate': 'August 2019 - March 2020',
-            'Achievements': 'Some Achievements'
-        },
+        
         {
             'CompanyName': 'ZestGeek Solutions',
             'specialization': 'Jh. Front-end Developer',
@@ -59,9 +54,15 @@ let resumeData = {
         {
             'CompanyName': 'Sunfocus Solutions',
             'specialization': 'Front-end Developer',
-            'JoiningDate': '9-Feb 2023 - COntinue ',
+            'JoiningDate': '9-Feb 2023 - 16-June 2023 ',
             'Achievements': 'Some Achievements'
-        }
+        },
+        {
+            'CompanyName': 'Matrix marketers',
+            'specialization': 'Front-end Developer',
+            'JoiningDate': 'June 2023 - Dec 2023',
+            'Achievements': 'Some Achievements'
+        },
     ],
     'skillsDescription': 'Skills',
     'skills': [
@@ -87,30 +88,28 @@ let resumeData = {
             'skillimg': require('./component/image/react.jpg'),
         }
     ],
-    // eslint-disable-next-line no-sparse-arrays
     'portfolio': [
         {
-            'name': 'AirFlowPeatSeatCover',
-            'description': 'mobileapp',
+            'name': 'Cloud Fence',
+            'description': 'I have used saga in this and MUI as design tool . We can create Policies and Traffic Activity etc in this.',
             'imgurl': require('./component/image/airflow.jpg'),
             'url': 'https://www.airflowpetseatcover.com/'
         },
         {
-            'name': 'BreathEasyNebulizer',
-            'description': 'mobileapp',
-            'imgurl': require('./component/image/nebuli.jpg'),
-            'url': 'https://www.breatheeasynebulizer.com/'
-        },
-        {
-            'name': 'Sonicliftbeauty',
-            'description': 'mobileapp',
+            'name': 'Hotel-management',
+            'description': 'This is hotel-management project. In this I have used bootstrap for design and redux saga.',
             'imgurl': require('./component/image/soniclift.jpg'),
             'url': 'https://www.sonicliftbeauty.com/'
         },
-        ,
         {
-            'name': 'Propamap',
-            'description': 'mobileapp',
+            'name': 'VLS',
+            'description': 'In this I have used And design. Integrate PIX payment gateway.',
+            'imgurl': require('./component/image/js.png'),
+            'url': 'https://www.propamap.com/'
+        },
+        {
+            'name': 'Carbonate',
+            'description': 'This project is related to HR management project . It this I have used Chakra UI for design and Redux Toolkit with Saga.',
             'imgurl': require('./component/image/js.png'),
             'url': 'https://www.propamap.com/'
         }
@@ -134,14 +133,14 @@ let resumeData = {
             'label': 'HTML/CSS',
             'percent': 50
         },
-        {
-            'label': 'Wordpress',
-            'percent': 20
-        },
-        {
-            'label': 'PHP',
-            'percent': 20
-        },
+        // {
+        //     'label': 'Wordpress',
+        //     'percent': 20
+        // },
+        // {
+        //     'label': 'PHP',
+        //     'percent': 20
+        // },
         {
             'label': 'Java Script',
             'percent': 40

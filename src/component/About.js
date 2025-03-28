@@ -1,11 +1,12 @@
 import React from 'react';
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 import { Typography, Row, Col } from 'antd';
 
 const About = (props) => {
 	let resumeData = props.resumeData;
 	const { Title, Paragraph } = Typography;
 
+	
 	return (
 		<section id="about" className="aboutSection">
 			<Row>

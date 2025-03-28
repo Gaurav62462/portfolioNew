@@ -11,7 +11,7 @@ const Footer = () => {
         <Row>
             <Col span={12}>
                 <h2>Address</h2>
-                <p><BiBuildingHouse style={{ fontSize: '30px', color: '#08c' }} />3rd Floor, Elina 8, SBP City of Dreams,
+                <p><BiBuildingHouse style={{ fontSize: '30px', color: '#08c' }} />3rd Floor, Olivia 13, SBP City of Dreams,
                <br /> Sector 116, Mohali, Punjab</p>
             </Col>
             <Col span={12}>

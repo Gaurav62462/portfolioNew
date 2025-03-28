@@ -12,8 +12,21 @@ const data = [
     { img: clark }
 ]
 const Slider = () => {
+
+    const testFunc  = (callBa) =>{
+        return callBa()
+    }
+
+    const testFunc1  = () =>{
+
+        let a = 'string'
+        return a
+    }
+
+    
+    const test = testFunc(testFunc1)
+    console.log(test)
     return (
-        <div>
             <Carousel autoplay effect='fade'>
                 {(data || []).map((el, key) => {
                     return (
@@ -21,8 +34,6 @@ const Slider = () => {
                     )
                 })}
             </Carousel>
-
-        </div>
     )
 }
 export default Slider;

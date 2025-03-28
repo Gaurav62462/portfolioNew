@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Button, Form, Input, Col, Row } from 'antd';
-import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
+// import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 // import MapStyle from './MapStyle';
 
 const Contactme = (props) => {
@@ -59,7 +59,7 @@ const Contactme = (props) => {
                         <Button type='submit' onClick={onSubmit}>Submit</Button>
                     </Form>
                 </Col>
-                <Col span={12}>
+                {/* <Col span={12}>
                     <Map
                         google={google}
                         onClick={() => setshowingInfoWindow(false)}
@@ -79,12 +79,13 @@ const Contactme = (props) => {
                             <p>{resumeData.infoWindow1}</p>
                         </InfoWindow>
                     </Map>
-                </Col>
+                </Col> */}
             </Row>
         </section>
     )
 }
 
-export default GoogleApiWrapper({
-    apiKey: 'AIzaSyD5fopwUV7qSvU7HTfXhsntbAwWF0nLDqY'
-})(Contactme)
+// export default GoogleApiWrapper({
+//     apiKey: 'AIzaSyD5fopwUV7qSvU7HTfXhsntbAwWF0nLDqY'
+// })(Contactme)
+export default Contactme

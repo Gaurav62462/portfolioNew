@@ -17,7 +17,7 @@ function App() {
       <Slider resumeData={resumeData} />
       <About resumeData={resumeData} />
       <Resume resumeData={resumeData} />
-      <Portfolio resumeData={resumeData} />
+      {/* <Portfolio resumeData={resumeData} /> */}
       <Contactme resumeData={resumeData} />
       <Footer resumeData={resumeData} />
       {/* <Usestatefunc /> */}
