@@ -89,6 +89,3 @@ const Contactme = (props) => {
 //     apiKey: 'AIzaSyD5fopwUV7qSvU7HTfXhsntbAwWF0nLDqY'
 // })(Contactme)
 export default Contactme
-
-// Object.assign()
-// Object.entities()

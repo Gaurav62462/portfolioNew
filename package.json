@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Gaurav62462.github.io/Gaurav62462.github.io",
+  "homepage": ".",
   "dependencies": {
     "@ant-design/icons": "^5.0.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",

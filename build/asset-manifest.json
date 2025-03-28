@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5421df9e.css",
+    "main.js": "./static/js/main.673fe49a.js",
+    "static/media/slid2.jpg": "./static/media/slid2.ee4fc3638ddef2b64788.jpg",
+    "static/media/contact.jpg": "./static/media/contact.4dca6388465eb445c09f.jpg",
+    "static/media/key.jpg": "./static/media/key.300d383fc94b6e4635ed.jpg",
+    "static/media/airflow.jpg": "./static/media/airflow.600c40df928581310ad9.jpg",
+    "static/media/clark.jpg": "./static/media/clark.40d35305c0c586100cd7.jpg",
+    "static/media/unsplash.jpg": "./static/media/unsplash.f89b9ceaa5d7fb10410c.jpg",
+    "static/media/slid1.jpg": "./static/media/slid1.a978148d113921214c36.jpg",
+    "static/media/soniclift.jpg": "./static/media/soniclift.2c4918c34430a54cb6a7.jpg",
+    "static/media/js.png": "./static/media/js.354bb8ee24943041d9a9.png",
+    "static/media/wordpress.png": "./static/media/wordpress.264bf46407c43b948d74.png",
+    "static/media/database.jpg": "./static/media/database.99ef377f6157c487ccb1.jpg",
+    "index.html": "./index.html",
+    "main.5421df9e.css.map": "./static/css/main.5421df9e.css.map",
+    "main.673fe49a.js.map": "./static/js/main.673fe49a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5421df9e.css",
+    "static/js/main.673fe49a.js"
+  ]
+}
